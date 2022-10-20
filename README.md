@@ -9,7 +9,7 @@ Niestety poległem w walce z segfaultami uruchamiając wszystko w notebooku.
 
 Output tekstowy programu:
 ```
-➜  hawkes Rscript main.R  
+➜  hawkes Rscript main.R
 [1] "-------------------------User 84: Krenel EXP-------------------------"
 Cannot find "lgo"
 Warning message:
@@ -18,19 +18,19 @@ In FUN(X[[i]], ...) :
 - Model: EXP 
 - No. of cascades: 1 
 - init_par:
-  K 6.87e-02; theta 2.14e-01
+  K 3.98e+00; theta 5.80e-01
 - par:
-  K 8.63e-01; theta 6.00e-05
-- Neg Log Likelihood: 55.4604 
+  K 9.98e-01; theta 2.14e-03
+- Neg Log Likelihood: 2397.59 
 - lower_bound:
   K 1.00e-100; theta 1.00e-100
 - upper_bound:
   K 1.00e+04; theta 3.00e+02
 - Convergence: 0 
 [1] "branching factor:"
-[1] 0.86319
+[1] 0.99809
 [1] "final population:"
-[1] 697.3094
+[1] 842.5698
 Warning message:
 In FUN(X[[i]], ...) :
   The provided observation time is smaller than the last observed event! Attempt to slice the data.
@@ -42,22 +42,22 @@ In FUN(X[[i]], ...) :
 - Model: mEXP 
 - No. of cascades: 1 
 - init_par:
-  K 1.00e-01; beta 1.00e-03; theta 1.00e-04
+  K 4.67e+00; beta 2.96e-01; theta 4.09e-01
 - par:
-  K 7.93e-01; beta 2.10e-01; theta 6.28e-05
-- Neg Log Likelihood: 55.403 
+  K 9.94e-01; beta 5.83e-03; theta 2.14e-03
+- Neg Log Likelihood: 2397.59 
 - lower_bound:
   K 1.00e-100; beta 1.00e-100; theta 1.00e-100
 - upper_bound:
   K 1.00e+04; beta 1.02e+00; theta 3.00e+02
 - Convergence: 0 
 [1] "branching factor:"
-[1] 0.9999984
+[1] 1
 [1] "final population:"
-[1] 95152.48
+[1] Inf
 Warning message:
-In FUN(X[[i]], ...) :
-  The provided observation time is smaller than the last observed event! Attempt to slice the data.
+In predict_final_popularity.hawkes(fitted_model_mexp) :
+  Branching Factor greater than 1, not possible to predict the size(super critical)
 [1] "-------------------------User 118: Krenel EXP-------------------------"
 Cannot find "lgo"
 Warning message:
@@ -66,19 +66,19 @@ In FUN(X[[i]], ...) :
 - Model: EXP 
 - No. of cascades: 1 
 - init_par:
-  K 1.00e-01; theta 1.00e-04
+  K 1.85e+00; theta 1.84e+00
 - par:
-  K 1.00e+00; theta 1.80e-05
-- Neg Log Likelihood: 35.2982 
+  K 9.99e-01; theta 4.27e-03
+- Neg Log Likelihood: 4242.06 
 - lower_bound:
   K 1.00e-100; theta 1.00e-100
 - upper_bound:
   K 1.00e+04; theta 3.00e+02
 - Convergence: 0 
 [1] "branching factor:"
-[1] 0.999998
+[1] 0.998995
 [1] "final population:"
-[1] 729870.8
+[1] 1911.383
 Warning message:
 In FUN(X[[i]], ...) :
   The provided observation time is smaller than the last observed event! Attempt to slice the data.
@@ -90,19 +90,19 @@ In FUN(X[[i]], ...) :
 - Model: mEXP 
 - No. of cascades: 1 
 - init_par:
-  K 1.00e-01; beta 1.00e-03; theta 1.00e-04
+  K 9.80e+00; beta 9.45e-01; theta 3.59e-02
 - par:
-  K 2.64e-01; beta 7.47e-01; theta 1.40e-05
-- Neg Log Likelihood: 34.5114 
+  K 9.38e-01; beta 6.34e-02; theta 4.27e-03
+- Neg Log Likelihood: 4241.11 
 - lower_bound:
   K 1.00e-100; beta 1.00e-100; theta 1.00e-100
 - upper_bound:
   K 1.00e+04; beta 1.02e+00; theta 3.00e+02
 - Convergence: 0 
 [1] "branching factor:"
-[1] 0.9999993
+[1] 0.9999994
 [1] "final population:"
-[1] 2194564
+[1] 404997.8
 Warning message:
 In FUN(X[[i]], ...) :
   The provided observation time is smaller than the last observed event! Attempt to slice the data.
