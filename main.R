@@ -7,7 +7,7 @@ library(repr)
 options(repr.plot.width = 14, repr.plot.height = 7, repr.plot.res = 200)
 
 
-observation_time <- 100000
+observation_time <- max(data_48$time) / 3
 
 
 print("-------------------------User 84: Krenel EXP-------------------------")
